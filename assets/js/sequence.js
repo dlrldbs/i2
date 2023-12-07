@@ -80,7 +80,7 @@ new ScrollMagic.Scene({
 const polaroidBackImgSqc = new Array();
 
 for (let i = 0; i < 36; i++) {
-    polaroidBackImgSqc.push(`./assets/images/polaroidBack${i}.webp`);
+    polaroidBackImgSqc.push(`./assets/images/polaroidback${i}.webp`);
 }
 function preloading(polaroidBackpreImgs) {
     let polaroidBackimgTotal = polaroidBackpreImgs.length;
